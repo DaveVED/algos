@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package serach
 
 func binarySerach(arr []int, needle int) bool {	
 	found := false
@@ -24,15 +20,4 @@ func binarySerach(arr []int, needle int) bool {
 	}
 
 	return found
-}
-
-func main() {
-	arr := []int{2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
-	v := 6
-	found := binarySerach(arr, v)
-	fmt.Println(found)
-
-	v = 16
-	found = binarySerach(arr, v)
-	fmt.Println(found)
 }

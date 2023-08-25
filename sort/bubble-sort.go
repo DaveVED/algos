@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package sort
 
 func bubbleSort(arr []int) {
 	n := len(arr)
@@ -13,10 +9,4 @@ func bubbleSort(arr []int) {
 			}
 		}
 	}
-}
-
-func main() {
-	arr := []int{1,2,7,4,2}
-	bubbleSort(arr)
-	fmt.Println(arr)
 }
